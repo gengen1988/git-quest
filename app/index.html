@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+  <!-- endbower -->
+
+  <link rel="stylesheet" href="css/layout.css" />
+
+</head>
+<body>
+
+  <header>
+    <h1>
+      GitQuest
+    </h1>
+    <p>hello</p>
+    <a href="https://github.com/login/oauth/authorize?client_id=ca8083d25c32c4b80594">Begin</a>
+  </header>
+
+  <main>
+    <p>Congrats, you just set up your cloud code project.</p>
+    <ul ng-controller="RepoController">
+      <li ng-repeat="repo in repos">{{repo.name}}</li>
+    </ul>
+  </main>
+
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+  <!-- endbower -->
+
+  <script src="app.js"></script>
+</body>
+</html>
