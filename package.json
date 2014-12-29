@@ -4,6 +4,7 @@
   "description": "Cloud code project for GitQuest. Cloud Code Guide: https://cn.avoscloud.com/docs/cloud_code_guide.html",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.10.0",
     "express": "^3.4.8"
   },
   "devDependencies": {

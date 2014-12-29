@@ -1,8 +1,8 @@
 {
-    "applicationName" : "GitQuest",
-    "applicationId": "a3hnn0d68foeiuol077yssif27hkhmu5tfz2einxuwi7ipch",
-    "applicationKey": "t2f7e0pc81xc4t34exfg85s4xl6savacgaydf0r13p0n0xoa",
-    "global": {
-        "avVersion": "0.3.1"
-    }
+  "applicationName" : "GitQuest",
+  "applicationId": "a3hnn0d68foeiuol077yssif27hkhmu5tfz2einxuwi7ipch",
+  "applicationKey": "t2f7e0pc81xc4t34exfg85s4xl6savacgaydf0r13p0n0xoa",
+  "global": {
+    "avVersion": "0.3.1"
+  }
 }
